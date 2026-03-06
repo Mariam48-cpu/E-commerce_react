@@ -1,0 +1,41 @@
+.footer{
+    background: #000;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid #666;
+}
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+.footer-socials .footer-icon{
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: gray;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.scroll-top:hover {
+  transform: scale(1.1);
+}

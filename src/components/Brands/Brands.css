@@ -1,0 +1,43 @@
+.brand-container{
+    position: relative;
+    width: 50;
+    height: 320px;
+    /* overflow: hidden;    اي جزء زياده عن الكونتينر مش بيظهر  */
+    margin-top: -4rem;
+    margin-left: -100px;
+}
+.strip-top, .strip-bottom{
+    position: absolute;
+    left: -10%;
+    width: 180%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.strip-top{
+    top: 15%;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.strip-bottom{
+    bottom: 20%;
+ transform: rotate(10deg);
+  z-index: 1;
+}
+.strip-top ul, .strip-bottom ul{
+  display: flex;      
+ gap: 300px;
+ font-size: 1.2rem;
+ font-weight: 600;
+ list-style: none;
+
+}
+.strip-top li, .strip-bottom li{
+    letter-spacing: 0.5px;
+
+}

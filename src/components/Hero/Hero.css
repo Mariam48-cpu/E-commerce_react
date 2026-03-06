@@ -1,0 +1,48 @@
+.hero-container{
+    height: 170vh;
+    display:grid;
+    place-items: center;
+
+}
+
+.hero-content{
+    text-align: center;
+
+}
+.hero-content h1{
+    font-size: 12rem;
+    font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.hero-content .hero-img{
+    width: 1000px;
+    height: 840px;
+    object-fit: contain;
+    margin-top: -8rem;
+}
+.hero_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -130px;
+    width: 70%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: -1px 11px 24px 11px rgba(196, 196, 196, 0.75);
+}
+ .hero_content{
+    display: flex;
+    gap: 25px;
+} 
+ .info_icon .hero_cc-icon{
+    font-size: 44px;
+    color: red;
+}
+.hero_content .detail h3{
+    font-size: 22px;
+}
+.hero_content .detail p{
+    font-size: 18px;
+    color: #555;
+}  
