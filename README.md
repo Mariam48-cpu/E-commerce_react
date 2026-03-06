@@ -1,16 +1,72 @@
-# React + Vite
+CIARA COLLECTION – E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an e-commerce website built using React.js as a team project.
+The project provides a complete online shopping experience including product browsing, authentication system, shopping cart, and checkout functionality.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User Registration and Login
+- Logout functionality
+- Dynamic Navbar based on authentication state
+- Product listing page
+- Product details page
+- Shopping cart system
+- Add and remove products from cart
+- Quantity control
+- Total price calculation
+- Checkout system
+- Data persistence using LocalStorage
+- Fully responsive design
 
-## React Compiler
+Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- CSS
+- LocalStorage
 
-## Expanding the ESLint configuration
+Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pages
+
+- Home Page
+- Product Details Page
+- Cart Page
+- Authentication Page
+
+Components
+
+- Navbar
+- Hero Section
+- Brands Section
+- Shop Context
+- Product List
+- Footer
+
+Team Contributions
+
+Marim Halawa
+
+- Implemented Authentication System
+- Built Dynamic Navbar
+- Developed Shopping Cart System
+- Implemented Checkout Functionality
+- Managed LocalStorage integration
+
+Mariam Sanad
+
+- Created and structured product data file
+- Built Shop Context, Product List, and Product Details pages
+- Designed product cards and layout
+- Styled product sections
+
+How to Run the Project
+
+1. Clone the repository
+2. Install dependencies
+
+npm install
+
+3. Run the project
+
+npm run dev
